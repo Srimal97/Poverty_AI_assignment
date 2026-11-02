@@ -1,0 +1,15 @@
+metric,model,estimate,ci_low,ci_high,p_le_0
+PR_AUC,Stacked Ensemble (proposed),0.591,0.5356,0.6424,
+PR_AUC,LightGBM PMT regressor,0.5827,0.5283,0.6332,
+PR_AUC,OLS PMT (existing practice),0.564,0.5134,0.6134,
+PR_AUC,Logistic Regression,0.5592,0.5063,0.6141,
+PR_AUC,Δ Stack − LightGBM PMT regressor,0.0083,-0.0033,0.0205,0.088
+PR_AUC,Δ Stack − OLS PMT (existing practice),0.027,0.0045,0.0546,0.008
+PR_AUC,Δ Stack − Logistic Regression,0.0318,0.0139,0.0508,0.0
+ROC_AUC,Stacked Ensemble (proposed),0.9083,0.8951,0.9215,
+ROC_AUC,LightGBM PMT regressor,0.9052,0.8919,0.9186,
+ROC_AUC,OLS PMT (existing practice),0.8997,0.8854,0.9131,
+ROC_AUC,Logistic Regression,0.8968,0.8813,0.9114,
+ROC_AUC,Δ Stack − LightGBM PMT regressor,0.0032,0.0003,0.0062,0.015
+ROC_AUC,Δ Stack − OLS PMT (existing practice),0.0087,0.0029,0.0144,0.002
+ROC_AUC,Δ Stack − Logistic Regression,0.0115,0.0059,0.0175,0.0

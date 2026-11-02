@@ -1,0 +1,48 @@
+ metric                                 model  estimate  ci_low  ci_high  p_le_0
+ PR_AUC           Stacked Ensemble (proposed)    0.5910  0.5356   0.6424     NaN
+ PR_AUC                LightGBM PMT regressor    0.5827  0.5283   0.6332     NaN
+ PR_AUC           OLS PMT (existing practice)    0.5640  0.5134   0.6134     NaN
+ PR_AUC                   Logistic Regression    0.5592  0.5063   0.6141     NaN
+ PR_AUC      Δ Stack − LightGBM PMT regressor    0.0083 -0.0033   0.0205   0.088
+ PR_AUC Δ Stack − OLS PMT (existing practice)    0.0270  0.0045   0.0546   0.008
+ PR_AUC         Δ Stack − Logistic Regression    0.0318  0.0139   0.0508   0.000
+ROC_AUC           Stacked Ensemble (proposed)    0.9083  0.8951   0.9215     NaN
+ROC_AUC                LightGBM PMT regressor    0.9052  0.8919   0.9186     NaN
+ROC_AUC           OLS PMT (existing practice)    0.8997  0.8854   0.9131     NaN
+ROC_AUC                   Logistic Regression    0.8968  0.8813   0.9114     NaN
+ROC_AUC      Δ Stack − LightGBM PMT regressor    0.0032  0.0003   0.0062   0.015
+ROC_AUC Δ Stack − OLS PMT (existing practice)    0.0087  0.0029   0.0144   0.002
+ROC_AUC         Δ Stack − Logistic Regression    0.0115  0.0059   0.0175   0.000
+     attribute            group  n_households  poverty_rate  selection_rate  recall  exclusion_error  inclusion_error  ROC_AUC  mean_pred
+   sector_name           Estate           189         0.280           0.751   0.945            0.055            0.648    0.829      0.313
+   sector_name            Rural          3249         0.119           0.295   0.854            0.146            0.655    0.901      0.121
+   sector_name            Urban           570         0.051           0.093   0.754            0.246            0.585    0.961      0.043
+      province          Central           595         0.130           0.344   0.917            0.083            0.653    0.914      0.141
+      province          Eastern           310         0.163           0.412   0.883            0.117            0.651    0.846      0.170
+      province    North Central           282         0.077           0.253   0.900            0.100            0.725    0.921      0.105
+      province    North Western           342         0.084           0.254   0.765            0.235            0.748    0.875      0.098
+      province         Northern           392         0.211           0.455   0.835            0.165            0.613    0.859      0.200
+      province     Sabaragamuwa           347         0.205           0.424   0.883            0.117            0.574    0.886      0.175
+      province         Southern           567         0.087           0.260   0.785            0.215            0.737    0.874      0.100
+      province              Uva           306         0.256           0.508   0.878            0.122            0.557    0.862      0.219
+      province          Western           867         0.039           0.098   0.770            0.230            0.695    0.950      0.044
+head_ethnicity     Indian Tamil           143         0.239           0.723   0.915            0.085            0.698    0.853      0.302
+head_ethnicity      Moor/Muslim           296         0.226           0.382   0.842            0.158            0.502    0.888      0.160
+head_ethnicity          Sinhala          2955         0.093           0.241   0.844            0.156            0.675    0.911      0.098
+head_ethnicity Sri Lankan Tamil           600         0.189           0.423   0.895            0.105            0.601    0.899      0.186
+      head_sex      Female head          1048         0.091           0.248   0.868            0.132            0.682    0.926      0.103
+      head_sex        Male head          2960         0.126           0.299   0.854            0.146            0.641    0.902      0.124
+                 poverty definition                                         rule  coverage  exclusion_error  inclusion_error
+    Post-transfer PCE (as measured)               Actual Samurdhi receipt (2019)      0.21            0.592            0.774
+    Post-transfer PCE (as measured) Stacked Ensemble (proposed) at same coverage      0.21            0.227            0.571
+    Post-transfer PCE (as measured) OLS PMT (existing practice) at same coverage      0.21            0.246            0.582
+    Post-transfer PCE (as measured)      LightGBM PMT regressor at same coverage      0.21            0.242            0.579
+Pre-transfer PCE (Samurdhi removed)               Actual Samurdhi receipt (2019)      0.21            0.531            0.709
+Pre-transfer PCE (Samurdhi removed) Stacked Ensemble (proposed) at same coverage      0.21            0.261            0.542
+Pre-transfer PCE (Samurdhi removed) OLS PMT (existing practice) at same coverage      0.21            0.276            0.551
+Pre-transfer PCE (Samurdhi removed)      LightGBM PMT regressor at same coverage      0.21            0.275            0.551
+{'n_features': 10, 'PR_AUC': 0.5247841531507318, 'ROC_AUC': 0.8929597629606049}
+{'n_features': 20, 'PR_AUC': 0.555543431276716, 'ROC_AUC': 0.8952158846842417}
+{'n_features': 30, 'PR_AUC': 0.5652658664526824, 'ROC_AUC': 0.9013529383074226}
+{'n_features': 45, 'PR_AUC': 0.5602599539715538, 'ROC_AUC': 0.9023489038198882}
+{'n_features': 93, 'PR_AUC': 0.5696875438519498, 'ROC_AUC': 0.9015069217503653}

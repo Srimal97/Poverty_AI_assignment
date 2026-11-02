@@ -1,0 +1,9 @@
+data/
+mlruns/
+mlflow.db
+notebooks/
+reports/figures/
+models/*.parquet
+models/benchmarks.pkl
+models/*.npy
+.git

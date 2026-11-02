@@ -1,0 +1,82 @@
+{
+  "LightGBM": {
+    "params": {
+      "n_estimators": 1400,
+      "learning_rate": 0.012261826498101565,
+      "num_leaves": 89,
+      "min_child_samples": 73,
+      "subsample": 0.565337307712811,
+      "colsample_bytree": 0.3344629558038102,
+      "reg_lambda": 0.059868678975709834,
+      "reg_alpha": 0.015675741449548485,
+      "scale_pos_weight": 1.7439119036393176
+    },
+    "cv_wAP": 0.5253149844781543,
+    "n_trials": 40,
+    "minutes": 13.8
+  },
+  "XGBoost": {
+    "params": {
+      "n_estimators": 800,
+      "learning_rate": 0.04987675630468548,
+      "max_depth": 3,
+      "min_child_weight": 2.4891462314397965,
+      "subsample": 0.6646921357863336,
+      "colsample_bytree": 0.3313914333716784,
+      "reg_lambda": 6.589179971600797,
+      "gamma": 4.533854446688978,
+      "scale_pos_weight": 6.208881939818611
+    },
+    "cv_wAP": 0.5222676695999798,
+    "n_trials": 15,
+    "minutes": 3.3
+  },
+  "LightGBM PMT regressor": {
+    "params": {
+      "n_estimators": 1000,
+      "learning_rate": 0.01793532053620138,
+      "num_leaves": 30,
+      "min_child_samples": 14,
+      "subsample": 0.9010984903770198,
+      "colsample_bytree": 0.35218545057583955,
+      "reg_lambda": 17.564278579581362
+    },
+    "cv_wAP": 0.5278785611940618,
+    "n_trials": 12,
+    "minutes": 2.4
+  },
+  "Extra Trees": {
+    "params": {
+      "n_estimators": 400,
+      "max_features": 0.3477574579236995,
+      "min_samples_leaf": 4
+    },
+    "cv_wAP": 0.49135652735441604,
+    "n_trials": 6,
+    "minutes": 2.4
+  },
+  "EBM": {
+    "params": {
+      "interactions": 0,
+      "learning_rate": 0.02,
+      "max_leaves": 3,
+      "min_samples_leaf": 50
+    },
+    "cv_wAP": 0.5126270108750733,
+    "n_trials": 5,
+    "minutes": 2.1
+  },
+  "CatBoost": {
+    "params": {
+      "iterations": 700,
+      "learning_rate": 0.03596444270828742,
+      "depth": 7,
+      "l2_leaf_reg": 1.6071238512039876,
+      "random_strength": 0.3135775732257744,
+      "bagging_temperature": 0.3663618432936917
+    },
+    "cv_wAP": 0.5245992742020016,
+    "n_trials": 8,
+    "minutes": 6.5
+  }
+}

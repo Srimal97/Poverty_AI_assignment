@@ -1,0 +1,9 @@
+# Training, tuning, experiment tracking, notebooks and tests
+-r requirements.txt
+optuna==5.0.0
+mlflow==3.17.2
+imbalanced-learn==0.14.2
+ngboost==0.5.11
+pytest
+jupyter
+nbconvert

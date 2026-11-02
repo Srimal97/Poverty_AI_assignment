@@ -1,0 +1,14 @@
+# Runtime (app + model). Versions pinned to match the pickled model exactly.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+interpret==0.7.8
+shap==0.54.1
+joblib==1.6.0
+pyarrow==25.0.1
+matplotlib==3.11.2
+streamlit==1.66.1

@@ -1,0 +1,19 @@
+# Raw DCS microdata is NOT redistributed - see data/README.md
+data/raw/
+data/processed/
+*.csv.gz
+# experiment tracking (local)
+mlruns/
+mlflow.db
+# large intermediate artefacts
+models/oof_scores.parquet
+models/test_scores.parquet
+models/benchmarks.pkl
+models/shap_test_values.npy
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+.DS_Store
+models/cache/
+models/shap_cache/

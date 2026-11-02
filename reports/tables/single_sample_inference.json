@@ -1,0 +1,30 @@
+{
+  "row_in_test": 351,
+  "psu": 112009,
+  "predicted_probability": 0.653854675121287,
+  "decision_threshold": 0.12567075274105025,
+  "decision": "Eligible (poor)",
+  "actual_poor": 1,
+  "actual_pce": 5956.892857142857,
+  "base_learner_probabilities": {
+    "CatBoost": 0.39886606582086576,
+    "LightGBM": 0.826736801254703,
+    "XGBoost": 0.7905346155166626,
+    "EBM": 0.828442539306143,
+    "Extra Trees": 0.6618587352036623,
+    "LightGBM PMT regressor": 0.5783365995080009,
+    "OLS PMT (existing practice)": 0.63142013599281
+  },
+  "top_contributions_logodds": {
+    "n_members": 1.2109,
+    "persons_per_bedroom": 0.7456,
+    "asset_types_owned": 0.6653,
+    "district_name": -0.4291,
+    "n_disabled_or_old": 0.3502,
+    "n_cooker": 0.2959,
+    "n_car_van": 0.2548,
+    "n_mobile_phone": -0.2478,
+    "cooking_fuel": 0.2383,
+    "mean_adult_edu_yrs": 0.2181
+  }
+}

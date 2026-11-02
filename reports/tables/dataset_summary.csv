@@ -1,0 +1,12 @@
+,value
+Households (sample),19911.0
+Persons (sample),74285.0
+Districts,25.0
+PSUs (clusters),2411.0
+Features used,93.0
+Numeric,77.0
+Categorical,16.0
+"Poor households, unweighted %",12.535784239867409
+"Poor households, weighted %",11.60928045672513
+"Poor persons (headcount), weighted %",13.919178852573182
+Median monthly PCE (Rs),12991.438666666667

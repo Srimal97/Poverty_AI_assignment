@@ -1,0 +1,16 @@
+,missing_%
+max_edu_yrs,0.005
+mean_adult_edu_yrs,0.03
+head_edu_yrs,0.04
+bedrooms,0.015
+floor_area_band,0.015
+km_to_bus_halt,0.04
+km_to_primary_school,0.181
+km_to_secondary_school,0.1
+km_to_hospital,0.04
+km_to_govt_dispensary,1.487
+km_to_ds_office,0.055
+km_to_bank,0.04
+km_to_post_office,0.045
+km_to_agrarian_office,0.07
+persons_per_bedroom,0.015
